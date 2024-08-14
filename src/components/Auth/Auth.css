@@ -45,7 +45,7 @@ form {
 h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: #fff;
+    color: #000;
 }
 
 .input-field {
@@ -59,7 +59,7 @@ h2 {
     top: 50%;
     left: 0;
     transform: translateY(-50%);
-    color: #fff;
+    color: #000;
     font-size: 16px;
     pointer-events: none;
     transition: 0.15s ease;
@@ -72,7 +72,7 @@ h2 {
     border: none;
     outline: none;
     font-size: 16px;
-    color: #fff;
+    color: #000;
 }
 
 .input-field input:focus~label,
@@ -87,11 +87,11 @@ h2 {
     align-items: center;
     justify-content: space-between;
     margin: 25px 0 35px 0;
-    color: #fff;
+    color: #000;
 }
 
 #remember {
-    accent-color: #fff;
+    accent-color: #000;
 }
 
 .forget label {
@@ -113,7 +113,7 @@ h2 {
 }
 
 button {
-    background: #fff;
+    background: #000;
     color: #000;
     font-weight: 600;
     border: none;
@@ -126,13 +126,13 @@ button {
 }
 
 button:hover {
-    color: #fff;
-    border-color: #fff;
+    color: #000;
+    border-color: #000;
     background: rgba(255, 255, 255, 0.15);
 }
 
 .register {
     text-align: center;
     margin-top: 30px;
-    color: #fff;
+    color: #000;
 }
