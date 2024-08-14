@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../Auth/Auth.css';
+import { redirect } from "react-router-dom";
 
 
 function Register() {
@@ -96,10 +97,14 @@ function Register() {
 
       </form>
       {error && <p style={{ color: 'red' }}>{error}</p>}
-      {success && <p style={{ color: 'white' }}>
-        {success}
-      </p>}
-    </div>
+      {success && <p style={{ color: 'green' }}>
+        {success}.
+        <br></br>
+        <a style={{ color: 'red' }} href="/login">Please Login</a>
+      </p >
+      }
+
+    </div >
 
   );
 
